@@ -1,48 +1,65 @@
-# Computer_Vision_Projects
-# Project No 1: Object detection
-In this project i use the Yolo to detect the helemts.I can build any custom object detection.You can see the my work and code in the notebook on the kaggle.
-https://www.kaggle.com/code/rehmang110/yolo-detection
+# Computer Vision Projects
 
-# Project No 2 : Object Tracking / Object Counting
-In this i track the objects like the vehicles. Use the yolo to detect then bytetracker to track and then count them.You can see on the notebook
-https://www.kaggle.com/code/rehmang110/object-counter
+Below are my end-to-end projects demonstrating my skills in detection, segmentation, tracking, generation, and 3D morphing.
+Each project has a detailed PDF notebook attached for full explanation and results.
 
-# Project No 3 : Image Segmentation
-This project is about making the segmentation of dog from the any picture given to the model. I can make the customs segmentation of any object ok.
-Below is my work on this project you can see on the kaggle.ok.
-https://www.kaggle.com/code/rehmang110/semantic-seg          # this one for dogs
-https://www.kaggle.com/code/rehmang110/seg-former    # this is also i trained on my custom dataset.
+# Project No. 1 – Object Detection
 
-# Project No 4: Instance Segementation
-In this project i tried the instance segmentation and try the try on system on the object you can see in the notebook.
-https://www.kaggle.com/code/rehmang110/instance-segmentation
+In this project, I used YOLO to detect helmets from real-world images.
+I can build custom object detectors for any category.
+📄 See full work: Project1.pdf
 
-# Project No 5: Image Captioning
-In this project we can create a caption from any image, and we can train on the our dataset as well. You can see the notebook.
-https://www.kaggle.com/code/rehmang110/image-captioning
+# Project No. 2 – Object Tracking / Object Counting
 
-# Project No 6: Image Generation and Enhancing
-In this i use the built in diffusion models and so the inference, through giving them the image as well the text for the inference,
-you can clearly see that in the notebook generate some images as well also enhance the images.
-https://www.kaggle.com/code/rehmang110/product-maker
+Tracked vehicles using YOLO for detection and ByteTrack for tracking and counting.
+Used for traffic analytics and real-time monitoring.
+📄 See full work: Project2.pdf
 
-# Project No 7: Monocular Depth Estimation , Apply color grade filter on the image
-In this project I  use the built in model to make the depth estimation . And also i apply the filter that can change the color of the images like in the editing app happen. You can see the results in the Notebook
-https://www.kaggle.com/code/rehmang110/depth-anything
+# Project No. 3 – Image Segmentation
 
-# Project 8: Background Remover
-In this project it can remove the background of all pictures that contain the people and some other visible objects.
-https://www.kaggle.com/code/rehmang110/background-remover
+Performed semantic segmentation to extract dogs from images.
+Also trained a SegFormer model on my custom dataset.
+📄 See full work: Project3a.pdf
+📄 See full work: Project3b.pdf
 
-# Project No 9 :  Morph the Template 3d face.
-In this project I tried to change the 3d points of the already neautral 3d face by detecting that what the user input simple 2d image is doing.
-Mean if the user input 3d image is smilling then our 3d face will change into smilling the 3d face.Hope you get this.Notebook here
-https://www.kaggle.com/code/rehmang110/face-construction
+# Project No. 4 – Instance Segmentation
 
-# Project No 10: Tried to generate the 3d avatar
-In this project i tried to make the 3d avatar by simply use the pre made template and tried to join the user type (mean morph the head according to the user input as do int he above project ) head with  the template.
-https://www.kaggle.com/code/rehmang110/avatar-generation
+Applied instance segmentation techniques for object-level masking and visualization.
+Explored try-on systems for segmented objects.
+📄 See full work: Project4.pdf
 
+# Project No. 5 – Image Captioning
 
+Created an image captioning model that generates natural text descriptions from images.
+Can be customized for your own dataset.
+📄 See full work: Project5.pdf
 
+# Project No. 6 – Image Generation & Enhancement
 
+Used diffusion models to generate and enhance images from text and image inputs.
+Demonstrated prompt-based product generation and image upscaling.
+📄 See full work: Project6.pdf
+
+# Project No. 7 – Monocular Depth Estimation & Color Grading
+
+Performed depth map estimation from single images using pretrained depth models.
+Applied color grading filters similar to editing apps.
+📄 See full work: Project7.pdf
+
+# Project No. 8 – Background Remover
+
+Developed a model to remove backgrounds from images containing people and objects.
+Ideal for e-commerce, portraits, and photo editing tools.
+📄 See full work: Project8.pdf
+
+# Project No. 9 – Morph the Template 3D Face
+
+Built a system that morphs a neutral 3D face mesh based on the expressions detected in a user’s 2D image (e.g., smiling).
+📄 See full work: Project9.pdf
+
+# Project No. 10 – 3D Avatar Generation
+
+Attempted to generate a 3D avatar by combining the user’s 3D head shape (from 2D input) with a pre-made body template.
+📄 See full work: Project10.pdf
+
+💡 All projects demonstrate real computer vision and 3D AI capabilities — from classic detection to advanced 3D morphing — fully implemented, tested, and documented.
